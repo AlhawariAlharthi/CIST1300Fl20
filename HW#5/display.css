@@ -1,0 +1,121 @@
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+body {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    background-color: #a5abaf;
+
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+p {
+    font-family: sans-serif;
+}
+
+textarea {
+    width: 75%;
+    margin-left: 15%;
+
+    border: 2px solid red;
+    border-radius: 4px;
+
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+
+
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.test1 {
+    text-transform: uppercase;
+    color: navy;
+}
+
+.test2 {
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.test3 {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+
+.test4 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.test5 {
+    text-decoration: overline;
+    word-spacing: 20px;
+}
+
+.test6 {
+    text-decoration: line-through;  
+    text-shadow: 2px 2px 5px red;
+}
+
+.test7 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0.00, red), 
+        color-stop(16%, orange),
+        color-stop(32%, yellow),
+        color-stop(48%, green),
+        color-stop(60%, blue),
+        color-stop(76%, indigo),
+        color-stop(1.00, violet));
+
+}
+
+.test8 {
+    text-transform: capitalize;
+}
